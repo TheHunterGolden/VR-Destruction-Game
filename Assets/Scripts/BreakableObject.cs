@@ -18,8 +18,8 @@ public class BreakableObject : MonoBehaviour {
         if (col.gameObject.tag == "hammer") {
             if (!gameObject.GetComponent<Rigidbody>())
             {
-                gameObject.AddComponent<Rigidbody>();
-                gameObject.GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+               // gameObject.AddComponent<Rigidbody>();
+               // gameObject.GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
                
             }
             

@@ -41,13 +41,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1986015178104006}
-  m_LocalRotation: {x: 0.119167954, y: 0.05941326, z: 0.20098211, w: 0.9705026}
-  m_LocalPosition: {x: 2.9324203, y: 0.392, z: -0.5367836}
+  m_LocalRotation: {x: 0.045637064, y: 0.080340214, z: 0.016035628, w: 0.9955931}
+  m_LocalPosition: {x: 2.82, y: 0.65, z: -0.46}
   m_LocalScale: {x: 2.4909563, y: 2.4909565, z: 2.4909565}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 11.971001, y: 9.6050005, z: 24.409}
+  m_LocalEulerAnglesHint: {x: 5.0660005, y: 9.327001, z: 2.259}
 --- !u!23 &23071792080447460
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -131,7 +131,7 @@ MonoBehaviour:
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   allowedTouchControllers: 0
   ignoredColliders: []
-  isGrabbable: 0
+  isGrabbable: 1
   holdButtonToGrab: 1
   stayGrabbedOnTeleport: 1
   validDrop: 1
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precisionGrab: 0
+  precisionGrab: 1
   rightSnapHandle: {fileID: 0}
   leftSnapHandle: {fileID: 0}
   throwVelocityWithAttachDistance: 0
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947b27445602ed640b885db7e667dfc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabButton: 7
+  grabButton: 3
   grabPrecognition: 0
   throwMultiplier: 1
   createRigidBodyWhenNotTouching: 0
