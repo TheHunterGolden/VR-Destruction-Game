@@ -28,6 +28,7 @@ GameObject:
   - component: {fileID: 114091706098471196}
   - component: {fileID: 114846930168102298}
   - component: {fileID: 114229758949865324}
+  - component: {fileID: 64526119104265504}
   m_Layer: 0
   m_Name: sledgehammer0.01
   m_TagString: hammer
@@ -42,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1986015178104006}
   m_LocalRotation: {x: 0.045637064, y: 0.080340214, z: 0.016035628, w: 0.9955931}
-  m_LocalPosition: {x: -4.69, y: 0.61, z: -0.2}
+  m_LocalPosition: {x: -3.09, y: 0.5, z: 1.36}
   m_LocalScale: {x: 2.4909563, y: 2.4909565, z: 2.4909565}
   m_Children: []
   m_Father: {fileID: 0}
@@ -102,7 +103,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!64 &64656045389817590
+--- !u!64 &64526119104265504
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -114,6 +115,20 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 1
   m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: e8d5db139936f7c46bbd218d40a26c1c, type: 3}
+--- !u!64 &64656045389817590
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986015178104006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 1
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: e8d5db139936f7c46bbd218d40a26c1c, type: 3}
 --- !u!114 &114091706098471196
