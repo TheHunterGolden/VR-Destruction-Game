@@ -21,7 +21,7 @@ public class Hammer : MonoBehaviour {
         if (col.gameObject.tag == "breakable")
         {   
             //Instantiate (areaOfEffect, contact.point, areaOfEffect.transform.localRotation);
-            //Debug.Log("contact point:" + contact.point);
+            Debug.Log("contact point:" + contact.point);
         }
 
     }
@@ -30,6 +30,7 @@ public class Hammer : MonoBehaviour {
         if (collider.gameObject.tag == "breakable") {
             //GameObject aoe = Instantiate(areaOfEffect, contact.point, areaOfEffect.transform.localRotation);
             //Destroy(aoe);
+            Debug.Log("trigger");
         }
     }
 }

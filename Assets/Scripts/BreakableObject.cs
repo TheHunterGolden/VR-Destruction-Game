@@ -16,7 +16,7 @@ public class BreakableObject : MonoBehaviour {
         
         if (col.gameObject.tag == "hammer")
         {
-            if ((col.relativeVelocity.magnitude > 1) && (gameObject.GetComponent<Rigidbody>().isKinematic == true))
+            if ((col.relativeVelocity.magnitude > 0.4) && (gameObject.GetComponent<Rigidbody>().isKinematic == true))
             {
      
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
