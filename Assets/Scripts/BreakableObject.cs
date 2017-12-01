@@ -10,13 +10,13 @@ public class BreakableObject : MonoBehaviour {
     public GameObject areaOfEffect;
 
 
-    void OnCollisionEnter(Collision col) {
+    void OnCollisionStay(Collision col) {
 
         ContactPoint contact = col.contacts[0];
         
         if (col.gameObject.tag == "hammer")
         {
-            if ((col.relativeVelocity.magnitude > 0.4) && (gameObject.GetComponent<Rigidbody>().isKinematic == true))
+            if ((gameObject.GetComponent<Rigidbody>().isKinematic == true))
             {
      
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
