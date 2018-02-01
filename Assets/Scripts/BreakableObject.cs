@@ -39,11 +39,12 @@ public class BreakableObject : MonoBehaviour {
         {
             if ((gameObject.GetComponent<Rigidbody>().isKinematic == true))
             {
-     
+				
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
-                GameObject aoe = Instantiate(areaOfEffect, contact.point, Quaternion.Euler(gameObject.transform.rotation.eulerAngles.x, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z + 90));
+				GameObject aoe = Instantiate(areaOfEffect, contact.point , Quaternion.Euler(gameObject.transform.rotation.eulerAngles.x, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z + 90));
                 aoe.GetComponent<AreaOfEffect>().setSize(col.relativeVelocity.magnitude);
-                Destroy(aoe);
+				Debug.Log (col.relativeVelocity.magnitude);
+                //Destroy(aoe);
             }
         }
     }
