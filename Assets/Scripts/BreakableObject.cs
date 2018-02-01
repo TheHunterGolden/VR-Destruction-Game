@@ -38,7 +38,7 @@ public class BreakableObject : MonoBehaviour {
             Destroy(gameObject);
         }
 
-		if (gameObject.GetComponent<Rigidbody> ().isKinematic == true) {
+		if (gameObject.GetComponent<Rigidbody> ().isKinematic == true && (objScript != null)) {
 			objScript.enabled = false;
 		}
 
