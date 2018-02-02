@@ -23,7 +23,7 @@ public class Levelcontroller : MonoBehaviour {
 
     void OnTriggerEnter(Collider col) {
         if (col.gameObject.tag == "controller") {
-            SceneManager.LoadScene(levelName);
+            //SceneManager.LoadScene(levelName);
         }
     }
 

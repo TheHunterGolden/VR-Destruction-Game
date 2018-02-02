@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using VRTK;
+using VRTK.GrabAttachMechanics;
 
 public class BreakableObject : MonoBehaviour {
 
@@ -12,9 +13,17 @@ public class BreakableObject : MonoBehaviour {
     public bool startTimer;
     public bool destroyOverTime;
     public bool useTimer;
-    void Start() {
+	private VRTK_InteractableObject objScript;
+	private VRTK_FixedJointGrabAttach fixedGrabAttach;
+    
+	void Start() {
         timer = 3;
         startTimer = false;
+		if (gameObject.GetComponent<VRTK_InteractableObject> () && gameObject.GetComponent<VRTK_FixedJointGrabAttach> ()) { 
+			objScript = gameObject.GetComponent<VRTK_InteractableObject> ();
+			fixedGrabAttach = gameObject.GetComponent<VRTK_FixedJointGrabAttach> ();
+			objScript.grabAttachMechanicScript = fixedGrabAttach;
+		}
     }
 
     void Update()
@@ -29,6 +38,10 @@ public class BreakableObject : MonoBehaviour {
             Destroy(gameObject);
         }
 
+		if (gameObject.GetComponent<Rigidbody> ().isKinematic == true && (objScript != null)) {
+			objScript.enabled = false;
+		}
+
     }
 
     void OnCollisionStay(Collision col) {
@@ -39,10 +52,11 @@ public class BreakableObject : MonoBehaviour {
         {
             if ((gameObject.GetComponent<Rigidbody>().isKinematic == true))
             {
-     
+				
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
-                GameObject aoe = Instantiate(areaOfEffect, contact.point, Quaternion.Euler(gameObject.transform.rotation.eulerAngles.x, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z + 90));
+				GameObject aoe = Instantiate(areaOfEffect, contact.point , Quaternion.Euler(gameObject.transform.rotation.eulerAngles.x, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z + 90));
                 aoe.GetComponent<AreaOfEffect>().setSize(col.relativeVelocity.magnitude);
+				//Debug.Log (col.relativeVelocity.magnitude);
                 Destroy(aoe);
             }
         }
