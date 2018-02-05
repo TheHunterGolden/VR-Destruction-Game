@@ -8,6 +8,10 @@ public class CannonController : MonoBehaviour {
     GameObject prefabShell;
 
     [SerializeField]
+    [Tooltip("The prefab to particle effect when shooting")]
+    GameObject prefabShootingEffect;
+
+    [SerializeField]
     [Tooltip("The animator to button")]
     Animator button;
 
@@ -39,13 +43,15 @@ public class CannonController : MonoBehaviour {
 
     public void shootShell()
     {
+        GameObject shootingEffect = Instantiate(prefabShootingEffect, transform);
         GameObject shell = Instantiate(prefabShell, transform);
+        shootingEffect.transform.parent = null;
         shell.transform.parent = null;
         float unit = transform.localEulerAngles.y;
         if (unit >= 300)
             unit -= 360f;
         unit /= 40f;
-        //Debug.Log();
+
         Vector3 direction = new Vector3(unit , 1f, 1.414f);
         shell.GetComponent<Rigidbody>().AddForce(direction.normalized * shootingForce);
     }

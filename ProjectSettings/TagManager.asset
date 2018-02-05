@@ -11,6 +11,7 @@ TagManager:
   - FxTemporaire
   - projectile
   - TeleportIgnore
+  - Shell
   layers:
   - Default
   - TransparentFX
