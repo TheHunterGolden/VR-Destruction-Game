@@ -12,6 +12,7 @@ TagManager:
   - projectile
   - TeleportIgnore
   - Shell
+  - Block
   layers:
   - Default
   - TransparentFX
