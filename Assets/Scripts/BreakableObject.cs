@@ -15,8 +15,12 @@ public class BreakableObject : MonoBehaviour {
     public bool useTimer;
 	private VRTK_InteractableObject objScript;
 	private VRTK_FixedJointGrabAttach fixedGrabAttach;
-    
-	void Start() {
+
+    [SerializeField]
+    [Tooltip("The prefab for particle effect when hitting the wall")]
+    GameObject prefabHitEffect;
+
+    void Start() {
         timer = 3;
         startTimer = false;
 		if (gameObject.GetComponent<VRTK_InteractableObject> () && gameObject.GetComponent<VRTK_FixedJointGrabAttach> ()) { 
@@ -55,9 +59,16 @@ public class BreakableObject : MonoBehaviour {
 				
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
 				GameObject aoe = Instantiate(areaOfEffect, contact.point , Quaternion.Euler(gameObject.transform.rotation.eulerAngles.x, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z + 90));
+<<<<<<< HEAD
 				aoe.GetComponentInChildren<AreaOfEffect>().setSize(col.relativeVelocity.magnitude);
 				Debug.Log (col.relativeVelocity.magnitude);
                 //Destroy(aoe);
+=======
+                aoe.GetComponent<AreaOfEffect>().setSize(col.relativeVelocity.magnitude);
+                Instantiate(prefabHitEffect, contact.point, Quaternion.Euler(gameObject.transform.rotation.eulerAngles.x, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z + 90));
+				//Debug.Log (col.relativeVelocity.magnitude);
+                Destroy(aoe);
+>>>>>>> 3481de0584e343ea8ae9eece065ba96fe37a8be7
             }
         }
     }
