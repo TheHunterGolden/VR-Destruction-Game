@@ -8,7 +8,7 @@ public class BreakableObject : MonoBehaviour {
 
 
 
-    public GameObject areaOfEffect;
+	public GameObject areaOfEffect;
     public float timer;
     public bool startTimer;
     public bool destroyOverTime;
@@ -55,9 +55,9 @@ public class BreakableObject : MonoBehaviour {
 				
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
 				GameObject aoe = Instantiate(areaOfEffect, contact.point , Quaternion.Euler(gameObject.transform.rotation.eulerAngles.x, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z + 90));
-                aoe.GetComponent<AreaOfEffect>().setSize(col.relativeVelocity.magnitude);
-				//Debug.Log (col.relativeVelocity.magnitude);
-                Destroy(aoe);
+				aoe.GetComponentInChildren<AreaOfEffect>().setSize(col.relativeVelocity.magnitude);
+				Debug.Log (col.relativeVelocity.magnitude);
+                //Destroy(aoe);
             }
         }
     }
