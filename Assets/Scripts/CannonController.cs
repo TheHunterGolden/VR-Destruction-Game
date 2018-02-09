@@ -11,10 +11,6 @@ public class CannonController : MonoBehaviour {
     [Tooltip("The prefab to particle effect when shooting")]
     GameObject prefabShootingEffect;
 
-    [SerializeField]
-    [Tooltip("The animator to button")]
-    Animator button;
-
     private float rotationSpeed;
     private float range;
     private float shootingForce;
@@ -33,12 +29,6 @@ public class CannonController : MonoBehaviour {
 
         if (transform.localEulerAngles.y >= range && transform.localEulerAngles.y <= 360 - range)
             rotationSpeed = -rotationSpeed;
-
-        if (button.GetBool("shoot"))
-        {
-            shootShell();
-            button.SetBool("shoot", false);
-        }
     }
 
     public void shootShell()
