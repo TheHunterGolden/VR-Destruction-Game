@@ -64,6 +64,8 @@ public class BreakableObject : MonoBehaviour {
 				//Debug.Log (col.relativeVelocity.magnitude);
                 Destroy(aoe);
 
+                string[] soundName = { "Break1", "Break2", "Break3" };
+                FindObjectOfType<AudioManager>().Play(soundName[Random.Range(0, 2)]);
             }
         }
     }

@@ -243,7 +243,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1721009
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -385,7 +386,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2307735
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -614,7 +616,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &5750840
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -843,7 +846,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &6470026
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1159,7 +1163,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &11237238
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1301,7 +1306,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &14499084
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1487,6 +1493,62 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   destroyImmediatelyOnThrow: 1
   breakForce: 1500000
+--- !u!1 &23081408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 23081410}
+  - component: {fileID: 23081409}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &23081409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23081408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1bd0a18417c654f8ed1c77c02a9309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Break1
+    clip: {fileID: 8300000, guid: cd6aba06f8dcb8440ae9e1172edbefd7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Break2
+    clip: {fileID: 8300000, guid: 354df42aa80dfc146ae6418dcbea9176, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Break3
+    clip: {fileID: 8300000, guid: 224c4e2d38f5ab94b951eb55ef6524d5, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+--- !u!4 &23081410
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23081408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.6152344, y: 4.2094727, z: -4.0214844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 455
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &23373077
 Prefab:
   m_ObjectHideFlags: 0
@@ -1640,7 +1702,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &26621622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1869,7 +1932,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &30168815
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2030,7 +2094,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &40316241
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2327,7 +2392,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &44046133
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2556,7 +2622,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &44990661
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2717,7 +2784,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &45567631
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3033,7 +3101,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &45762758
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3175,7 +3244,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &46480047
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3404,7 +3474,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &48665650
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3701,7 +3772,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &52738692
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3862,7 +3934,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &54702076
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4159,7 +4232,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &63227410
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4388,7 +4462,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &63699164
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4714,7 +4789,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &71677305
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4943,7 +5019,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &73051404
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5172,7 +5249,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &74127655
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5401,7 +5479,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &77044736
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5698,7 +5777,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &84572973
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5927,7 +6007,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &91428564
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6243,7 +6324,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &92282390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6553,7 +6635,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &109011668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6801,7 +6884,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &110033522
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6943,7 +7027,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &126273222
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7172,7 +7257,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &129808382
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7469,7 +7555,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &133224679
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7630,7 +7717,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &149263685
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7859,7 +7947,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &159520280
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8045,6 +8134,186 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   destroyImmediatelyOnThrow: 1
   breakForce: 1500000
+--- !u!1001 &181401086
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 788690869}
+    m_Modifications:
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22442990, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22442990, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22476268, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22476268, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432698, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432698, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454212, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454212, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22482542, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22482542, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22465506, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22465506, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011018885128, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011018885128, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012153209662, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012153209662, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014259110642, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014259110642, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422736, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422736, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22481940, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22481940, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013893780094, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013893780094, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455702, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: displayText
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454652, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: displayText
+      value: Grip
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489614, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: displayText
+      value: TouchPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012444902488, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: displayText
+      value: Button1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000014163857056, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: displayText
+      value: Button2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11402720, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: displayText
+      value: Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 151380, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_Name
+      value: ControllerTooltips
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &181401087 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+  m_PrefabInternal: {fileID: 181401086}
 --- !u!1 &189742479
 GameObject:
   m_ObjectHideFlags: 0
@@ -8088,7 +8357,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &189742481
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8317,7 +8587,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &196591929
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8614,7 +8885,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &217504465
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8775,7 +9047,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &226540751
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9072,7 +9345,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &246244656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9233,7 +9507,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &250724670
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9462,7 +9737,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &251788582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9691,7 +9967,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &253563667
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9988,7 +10265,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &255840144
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10217,7 +10495,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &265462466
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10465,7 +10744,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &269110031
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10694,7 +10974,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &270348860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10836,7 +11117,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &279641609
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11065,7 +11347,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &285112308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11294,7 +11577,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &285927005
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11610,7 +11894,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &287089172
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11752,7 +12037,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &306100138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11981,7 +12267,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &306707498
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12297,7 +12584,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &311984341
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12439,7 +12727,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &317416366
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12736,7 +13025,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &318702520
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12984,7 +13274,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &336155933
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13126,7 +13417,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &338686676
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13442,7 +13734,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &343910582
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13652,7 +13945,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &345171611
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13881,7 +14175,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &347096346
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14042,7 +14337,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &348451484
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14271,7 +14567,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &348619914
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14500,7 +14797,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &349847294
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14842,7 +15140,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &350838146
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15071,7 +15370,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &351169502
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15368,7 +15668,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &352235846
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15616,7 +15917,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &356166226
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15758,7 +16060,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &361921813
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15987,7 +16290,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &365069701
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16216,7 +16520,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &373647041
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16532,7 +16837,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &380510414
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16674,7 +16980,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &385805117
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16990,7 +17297,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &391014235
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17132,7 +17440,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &406077029
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17361,7 +17670,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &413881656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17555,8 +17865,20 @@ Prefab:
     m_TransformParent: {fileID: 788690869}
     m_Modifications:
     - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
       propertyPath: menuButtons.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 496472, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -17590,9 +17912,124 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].ButtonIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 08e33f003a7bb424e952b46b3b106404,
+        type: 3}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].OnClick.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].OnHold.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].OnHoverEnter.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].OnHoverExit.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].ButtonIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 08e33f003a7bb424e952b46b3b106404,
+        type: 3}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].OnClick.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].OnHold.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].OnHoverEnter.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].OnHoverExit.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].ButtonIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 16f8f8e315a41fd458ba27cc905d32dc,
+        type: 3}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].ButtonIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: a60ff30718b013e499ae445acb878b19,
+        type: 3}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 417669685}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 417669685}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnHome
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnReset
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &417669684 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 122840, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+  m_PrefabInternal: {fileID: 417669683}
+--- !u!114 &417669685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 417669684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0db7baac0a72843844632612ae0a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &427226709
 GameObject:
   m_ObjectHideFlags: 0
@@ -17636,7 +18073,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &427226711
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17952,7 +18390,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &450118538
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18181,7 +18620,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &452202723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18510,7 +18950,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &462354684
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18720,7 +19161,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &464435816
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18968,7 +19410,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &469302335
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19110,7 +19553,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &469459025
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19407,7 +19851,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &480439473
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19636,7 +20081,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &480517974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19797,7 +20243,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &483761081
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20026,7 +20473,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &493756753
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20386,6 +20834,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 834678290}
+  - {fileID: 1625906861}
   m_Father: {fileID: 782232224}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20532,7 +20981,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &503644125
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20848,7 +21298,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &508778016
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20990,7 +21441,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &510945586
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21298,7 +21750,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &517075639
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21595,7 +22048,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &517777785
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21824,7 +22278,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &517793542
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22072,7 +22527,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &523308353
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22214,7 +22670,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &526341238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22443,7 +22900,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &529610524
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22759,7 +23217,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &530518270
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22969,7 +23428,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &532211909
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23130,7 +23590,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &533337841
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23359,7 +23820,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &537633370
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23675,7 +24137,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &541653655
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23885,7 +24348,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &546822742
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24133,7 +24597,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &548312809
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24275,7 +24740,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &548691907
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24504,7 +24970,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &554117440
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24801,7 +25268,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &561504316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25030,7 +25498,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &563086368
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25278,7 +25747,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &563217859
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25507,7 +25977,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &582425164
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25720,7 +26191,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &605729315
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26017,7 +26489,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &606330019
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26182,7 +26655,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &614865629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26498,7 +26972,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &621367139
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26727,7 +27202,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &626011854
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26956,7 +27432,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &629611526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27098,7 +27575,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &641777180
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27414,7 +27892,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &642523212
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27556,7 +28035,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &643885564
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27853,7 +28333,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &659618186
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28014,7 +28495,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &660643856
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28444,7 +28926,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &666355949
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28673,7 +29156,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &667814075
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28902,7 +29386,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &668963570
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29044,7 +29529,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &670781251
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29360,7 +29846,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &680101800
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29589,7 +30076,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &692112864
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29818,7 +30306,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &698658864
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30047,7 +30536,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &704050308
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30189,7 +30679,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &705522396
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30486,7 +30977,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &710695541
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30647,7 +31139,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &711483162
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30944,7 +31437,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &713853131
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31105,7 +31599,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &721471229
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31334,7 +31829,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &721586558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31631,7 +32127,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &723715851
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31879,7 +32376,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &727655212
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32021,7 +32519,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &730032556
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32250,7 +32749,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &731689840
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32566,7 +33066,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &733600765
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32795,7 +33296,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &738676525
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33005,7 +33507,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &743950470
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33166,7 +33669,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &744236603
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33463,7 +33967,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &749903225
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33624,7 +34129,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &766311124
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33853,7 +34359,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &774336100
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34135,7 +34642,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &788031794
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34495,6 +35003,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1569061733}
+  - {fileID: 181401087}
   m_Father: {fileID: 782232224}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34628,7 +35137,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &792905348
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34857,7 +35367,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &794735521
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35067,7 +35578,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &796016080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35296,7 +35808,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &796792300
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35544,7 +36057,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &802142964
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35686,7 +36200,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &802902913
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35915,7 +36430,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &808019608
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36231,7 +36747,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &813193726
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36373,7 +36890,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &813333262
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36602,7 +37120,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &814626347
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36831,7 +37350,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &816799113
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37060,7 +37580,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &819987219
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37376,7 +37897,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &820303441
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37518,7 +38040,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &822599929
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37815,7 +38338,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &828901925
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38063,7 +38587,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &829880079
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38205,7 +38730,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &830187979
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38502,7 +39028,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &830909126
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38624,6 +39151,21 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 496472, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
   m_PrefabInternal: {fileID: 2102061371}
+--- !u!1 &835732068 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 122840, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+  m_PrefabInternal: {fileID: 2102061371}
+--- !u!114 &835732069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 835732068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0db7baac0a72843844632612ae0a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &838389974
 GameObject:
   m_ObjectHideFlags: 0
@@ -38735,7 +39277,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &838389979
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38964,7 +39507,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &844805461
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39125,7 +39669,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &844900155
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39354,7 +39899,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &846418262
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39583,7 +40129,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &850513317
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39880,7 +40427,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &855350109
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40041,7 +40589,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &857658880
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40270,7 +40819,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &858027377
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40499,7 +41049,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &859025979
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40796,7 +41347,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &867235316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40957,7 +41509,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &880553856
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41186,7 +41739,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &893266450
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41415,7 +41969,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &896186089
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41644,7 +42199,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &918697474
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42095,7 +42651,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &933808935
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -42237,7 +42794,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &937137566
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42534,7 +43092,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &940638384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42695,7 +43254,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &943163788
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42924,7 +43484,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &947720126
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43153,7 +43714,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &947950858
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43382,7 +43944,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &949489491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43611,7 +44174,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &950456247
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43927,7 +44491,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &955436436
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -44069,7 +44634,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &957826059
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44385,7 +44951,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &960095413
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -44527,7 +45094,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &971283136
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44756,7 +45324,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &972618454
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44985,7 +45554,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &989044495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45282,7 +45852,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &992129578
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45511,7 +46082,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &994362973
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45672,7 +46244,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1000251941
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45969,7 +46542,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1018530466
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46198,7 +46772,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1024566665
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46546,7 +47121,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1036993508
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -46688,7 +47264,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1037379459
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46917,7 +47494,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1037505767
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47146,7 +47724,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1042631021
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47462,7 +48041,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1044015086
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -47672,7 +48252,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1045151433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47891,7 +48472,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1049950765
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48188,7 +48770,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1051866920
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48436,7 +49019,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1052862960
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -48578,7 +49162,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1053335677
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48807,7 +49392,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1061263732
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49123,7 +49709,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1073094620
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49352,7 +49939,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1076168205
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49581,7 +50169,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1076622940
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49791,7 +50380,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1093725444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49952,7 +50542,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1101316723
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50268,7 +50859,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1103638977
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -50410,7 +51002,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1112702637
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50707,7 +51300,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1114810673
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50868,7 +51462,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1119204041
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51184,7 +51779,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1121754004
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -51326,7 +51922,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1125157633
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51623,7 +52220,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1126164219
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51784,7 +52382,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1128803756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52100,7 +52699,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1151249410
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -52242,7 +52842,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1162151818
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52558,7 +53159,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1173925587
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -52700,7 +53302,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1178580318
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53016,7 +53619,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1186477889
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53226,7 +53830,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1186576802
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53455,7 +54060,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1194103562
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53703,7 +54309,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1195187475
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53845,7 +54452,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1199920734
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54177,7 +54785,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1213686159
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -54319,7 +54928,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1218602384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54616,7 +55226,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1222393218
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54777,7 +55388,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1222705556
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55006,7 +55618,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1224448083
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55235,7 +55848,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1233186809
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55464,7 +56078,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1233254837
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55780,7 +56395,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1235609787
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -56009,7 +56625,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1243536062
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -56151,7 +56768,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1249212449
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56448,7 +57066,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1249248561
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56609,7 +57228,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1251737573
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56838,7 +57458,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1255172135
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57067,7 +57688,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1257924617
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57296,7 +57918,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1259869888
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57525,7 +58148,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1263190376
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57754,7 +58378,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1266212786
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58051,7 +58676,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1267248367
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58212,7 +58838,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1271781441
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58441,7 +59068,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1281060331
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58757,7 +59385,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1285872738
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -58899,7 +59528,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1289439984
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59215,7 +59845,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1298476409
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -59357,7 +59988,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1298577900
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59586,7 +60218,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1301204283
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59815,7 +60448,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1303538877
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60131,7 +60765,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1306107577
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -60273,7 +60908,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1315363971
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60570,7 +61206,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1318133635
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60800,7 +61437,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1333772103
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61029,7 +61667,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1334240663
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61349,7 +61988,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1349754093
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -61491,7 +62131,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1373167687
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61720,7 +62361,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1379598010
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62036,7 +62678,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1380488059
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -62178,7 +62821,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1383215234
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62407,7 +63051,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1387780172
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62636,7 +63281,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1388197249
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62865,7 +63511,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1389225618
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63162,7 +63809,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1392255720
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63323,7 +63971,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1393949836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63552,7 +64201,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1406095426
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63849,7 +64499,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1411846331
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64078,7 +64729,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1413977590
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64307,7 +64959,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1415376515
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64468,7 +65121,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1417011802
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64784,7 +65438,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1428693531
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -64926,7 +65581,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1432577413
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65155,7 +65811,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1441790778
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65517,7 +66174,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1449694944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65678,7 +66336,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1460337744
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65911,7 +66570,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1461987416
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66227,7 +66887,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1465827665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -66369,7 +67030,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1465830661
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66598,7 +67260,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1466410884
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66914,7 +67577,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1472072123
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -67128,7 +67792,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1477025541
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67376,7 +68041,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1477854544
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -67605,7 +68271,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1481356726
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -67747,7 +68414,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1484686121
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68044,7 +68712,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1492944416
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68273,7 +68942,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1493586962
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68434,7 +69104,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1497078973
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68731,7 +69402,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1501007080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68960,7 +69632,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1511652886
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69217,7 +69890,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1519527973
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69465,7 +70139,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1522994649
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -69607,7 +70282,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1532141549
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69904,7 +70580,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1532154137
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -70256,7 +70933,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1533637532
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -70504,7 +71182,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1533727692
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -70733,7 +71412,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1536017527
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -70943,7 +71623,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1537383898
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71172,7 +71853,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1542298064
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71401,7 +72083,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1543791617
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71648,7 +72331,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1550392140
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71896,7 +72580,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1550931070
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -72170,7 +72855,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1556645535
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72418,7 +73104,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1559675572
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -72564,7 +73251,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1574531698
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72793,7 +73481,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1578407254
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73109,7 +73798,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1586095057
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -73338,7 +74028,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1587531398
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -73480,7 +74171,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1590229080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73709,7 +74401,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1595496706
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73938,7 +74631,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1596424366
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -74167,7 +74861,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1601267484
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -74396,7 +75091,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1608405613
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -74709,7 +75405,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1618397508
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -75006,7 +75703,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1618835949
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -75167,7 +75865,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1618925495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -75464,7 +76163,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1622612634
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -75582,6 +76282,182 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   destroyImmediatelyOnThrow: 1
   breakForce: 1500000
+--- !u!1001 &1625906860
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 497722953}
+    m_Modifications:
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22442990, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22442990, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22476268, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22476268, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432698, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432698, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454212, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454212, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22482542, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22482542, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22465506, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22465506, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011018885128, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011018885128, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012153209662, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012153209662, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014259110642, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014259110642, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422736, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422736, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22481940, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22481940, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013893780094, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013893780094, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455702, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: displayText
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454652, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: displayText
+      value: Grip
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489614, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: displayText
+      value: TouchPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012444902488, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: displayText
+      value: Button1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000014163857056, guid: 910be6460ba00dc4bb13725c3ff972cb,
+        type: 2}
+      propertyPath: displayText
+      value: Button2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11402720, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+      propertyPath: displayText
+      value: Start
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1625906861 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 479208, guid: 910be6460ba00dc4bb13725c3ff972cb, type: 2}
+  m_PrefabInternal: {fileID: 1625906860}
 --- !u!1 &1635543294
 GameObject:
   m_ObjectHideFlags: 0
@@ -75693,7 +76569,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1635543299
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -75854,7 +76731,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1636004389
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -76083,7 +76961,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1640903703
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -76380,7 +77259,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1644263099
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -76628,7 +77508,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1649147494
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -76948,7 +77829,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1654623414
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -77177,7 +78059,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1655339745
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -77319,7 +78202,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1657852414
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77635,7 +78519,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1657891526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -77877,7 +78762,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1671219685
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78106,7 +78992,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1680524308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78335,7 +79222,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1681663270
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78564,7 +79452,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1686428076
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78880,7 +79769,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1696129218
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -79022,7 +79912,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1697828270
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -79251,7 +80142,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1702905796
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -79548,7 +80440,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1708840755
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -79777,7 +80670,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1717743932
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80006,7 +80900,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1724704695
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80167,7 +81062,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1731825064
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80464,7 +81360,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1732357751
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80625,7 +81522,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1742192581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80854,7 +81752,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1744044350
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -81083,7 +81982,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1745272762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -81312,7 +82212,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1749764104
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -81541,7 +82442,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1756942728
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -81838,7 +82740,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1757473510
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -81999,7 +82902,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1772133178
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -82228,7 +83132,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1772982268
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -82544,7 +83449,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1773293785
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -82686,7 +83592,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1774264067
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -82983,7 +83890,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1775612958
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83231,7 +84139,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1775731440
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -83460,7 +84369,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1775999042
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -83602,7 +84512,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1779875429
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83918,7 +84829,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1790446316
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -84147,7 +85059,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1795631713
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -84357,7 +85270,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1808676745
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -84605,7 +85519,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1809085465
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -84747,7 +85662,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1810199660
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -84976,7 +85892,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1813417886
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85273,7 +86190,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1815961433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85434,7 +86352,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1821095166
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85663,7 +86582,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1824726705
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85892,7 +86812,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1836213263
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -86189,7 +87110,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1836413394
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -86437,7 +87359,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1844914616
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -86666,7 +87589,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1853086097
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -86876,7 +87800,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1857914652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87037,7 +87962,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1870084148
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87334,7 +88260,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1873233606
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87495,7 +88422,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1876289630
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87792,7 +88720,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1887686650
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -88040,7 +88969,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1891142956
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -88182,7 +89112,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1895869189
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -88411,7 +89342,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1898384524
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -88640,7 +89572,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1900990796
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -88869,7 +89802,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1903631942
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -89098,7 +90032,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1903650057
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -89327,7 +90262,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1911768170
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -89624,7 +90560,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1913472263
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -89785,7 +90722,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1917565115
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90014,7 +90952,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1921845786
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90311,7 +91250,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1928030996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90559,7 +91499,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1928212267
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -90769,7 +91710,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1928579307
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90930,7 +91872,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1928672598
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -91175,7 +92118,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1932013454
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -91491,7 +92435,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1932101928
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -91701,7 +92646,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1933288532
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -91862,7 +92808,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1933835837
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -92091,7 +93038,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1936123157
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -92320,7 +93268,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1943278279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -92636,7 +93585,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1947346814
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -92778,7 +93728,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1948468223
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -93075,7 +94026,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1949514651
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -93323,7 +94275,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1951308503
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -93465,7 +94418,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1951727246
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -93781,7 +94735,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1952315723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -94010,7 +94965,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1955278857
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -94220,7 +95176,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1955536659
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94381,7 +95338,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1959598494
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94610,7 +95568,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1966177586
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94839,7 +95798,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1972324866
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -95136,7 +96096,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1972721401
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -95262,6 +96223,13 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 420908, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
   m_PrefabInternal: {fileID: 1653257441}
+--- !u!81 &1975358951
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1975358949}
+  m_Enabled: 1
 --- !u!1 &1977022348
 GameObject:
   m_ObjectHideFlags: 0
@@ -95373,7 +96341,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1977022353
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -95621,7 +96590,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &1977744937
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -95831,7 +96801,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1979351648
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96060,7 +97031,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1993945861
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96221,7 +97193,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1993968439
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96518,7 +97491,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &1997178272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96747,7 +97721,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2003895935
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96908,7 +97883,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2004626135
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -97224,7 +98200,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &2018426506
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -97434,7 +98411,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2025183578
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -97595,7 +98573,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2026635825
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -97911,7 +98890,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &2027939220
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -98053,7 +99033,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2033765717
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -98282,7 +99263,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2035006347
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -98598,7 +99580,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &2038832342
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -98808,7 +99791,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2043094247
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -99056,7 +100040,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &2055981265
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -99266,7 +100251,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2056025386
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -99427,7 +100413,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2059282888
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -99724,7 +100711,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2063247619
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -99972,7 +100960,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &2075189880
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -100182,7 +101171,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2082838891
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -100343,7 +101333,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2085734305
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -100672,7 +101663,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2090163837
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -100988,7 +101980,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &2101820609
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -101095,8 +102088,20 @@ Prefab:
     m_TransformParent: {fileID: 497722953}
     m_Modifications:
     - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
       propertyPath: menuButtons.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 496472, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -101129,6 +102134,106 @@ Prefab:
     - target: {fileID: 496472, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].ButtonIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 08e33f003a7bb424e952b46b3b106404,
+        type: 3}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].OnClick.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].OnHold.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].OnHoverEnter.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[2].OnHoverExit.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].ButtonIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 08e33f003a7bb424e952b46b3b106404,
+        type: 3}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].OnClick.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].OnHold.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].OnHoverEnter.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[3].OnHoverExit.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].ButtonIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 16f8f8e315a41fd458ba27cc905d32dc,
+        type: 3}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].ButtonIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: a60ff30718b013e499ae445acb878b19,
+        type: 3}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 835732069}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnHome
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[0].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 835732069}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnReset
+      objectReference: {fileID: 0}
+    - target: {fileID: 11411068, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
+      propertyPath: buttons.Array.data[1].OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5fe2f7f9d3e98a478d151422643620c, type: 2}
@@ -101263,7 +102368,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &2102211876
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -101405,7 +102511,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2103998857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -101684,7 +102791,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2105532356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -102000,7 +103108,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!54 &2111154309
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -102310,7 +103419,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2135753185
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -102471,7 +103581,8 @@ MonoBehaviour:
   startTimer: 0
   destroyOverTime: 0
   useTimer: 0
-  prefabHitEffect: {fileID: 0}
+  prefabHitEffect: {fileID: 1453559708866264, guid: 635795700f1d4ba439cac8a511b4c8f5,
+    type: 2}
 --- !u!64 &2142699228
 MeshCollider:
   m_ObjectHideFlags: 0
