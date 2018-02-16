@@ -11,15 +11,20 @@ public class CannonController : MonoBehaviour {
     [Tooltip("The prefab to particle effect when shooting")]
     GameObject prefabShootingEffect;
 
+	[SerializeField]
     private float rotationSpeed;
+
+	[SerializeField]
     private float range;
+
+	[SerializeField]
     private float shootingForce;
 
     private void Start()
     {
-        rotationSpeed = 20f;
-        range = 40f;
-        shootingForce = 1200f;
+        //rotationSpeed = 20f;
+        //range = 40f;
+        //shootingForce = 1200f;
     }
     void Update()
     {
