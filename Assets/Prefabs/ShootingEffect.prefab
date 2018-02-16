@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4776433888064464}
   - component: {fileID: 198848384892662374}
   - component: {fileID: 199107044629948594}
+  - component: {fileID: 114212504603142276}
   m_Layer: 0
   m_Name: ShootingEffect
   m_TagString: Untagged
@@ -41,6 +42,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114212504603142276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1269743829180242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9c7681ab422294380ae6931bc1c76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &198848384892662374
 ParticleSystem:
   m_ObjectHideFlags: 1
