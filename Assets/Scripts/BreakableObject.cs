@@ -35,7 +35,7 @@ public class BreakableObject : MonoBehaviour {
 
     void Update()
 	{
-		audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
+		//audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
 
 
         if ((startTimer == true) && (useTimer)) { 
@@ -71,6 +71,10 @@ public class BreakableObject : MonoBehaviour {
 				audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
             }
         }
+    }
+
+    void OnCollisionEnter(Collision col) {
+        audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
     }
 
 }
