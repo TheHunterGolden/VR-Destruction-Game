@@ -1,0 +1,25 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Score : MonoBehaviour
+{
+    public int count;
+
+    void Start()
+    {
+        count = 0;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        gameObject.GetComponent<Text>().text = "Score: " + count + "/10";
+    }
+
+    public void addScore()
+    {
+        count++;
+    }
+}
