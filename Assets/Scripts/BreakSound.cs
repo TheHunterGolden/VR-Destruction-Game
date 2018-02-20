@@ -8,7 +8,13 @@ public class BreakSound : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col) {
 		if(col.gameObject.tag == "hammer")
-			audioSource.PlayOneShot (audioClips [Random.Range (0, audioClips.Length)]);
-		
+        {
+            AudioManager audioManager = audioSource.gameObject.GetComponent<AudioManager>();
+            if (Time.time - audioManager.getTime() > audioManager.getGap())
+            {
+                audioSource.PlayOneShot(audioClips[Random.Range(0, audioClips.Length)]);
+                audioManager.setTime();
+            }
+        }
 	}
 }
