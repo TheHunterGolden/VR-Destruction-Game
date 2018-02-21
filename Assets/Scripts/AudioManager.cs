@@ -26,17 +26,17 @@ public class AudioManager : MonoBehaviour {
         s.source.Play();
     }
 
-    public void setTime()
+    public void SetTime()
     {
         startTime = Time.time;
     }
 
-    public float getTime()
+    public float GetTime()
     {
         return startTime;
     }
 
-    public float getGap()
+    public float GetGap()
     {
         return gap;
     }

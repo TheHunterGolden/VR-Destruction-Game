@@ -10,10 +10,10 @@ public class BreakSound : MonoBehaviour {
 		if(col.gameObject.tag == "hammer")
         {
             AudioManager audioManager = audioSource.gameObject.GetComponent<AudioManager>();
-            if (Time.time - audioManager.getTime() > audioManager.getGap())
+            if (Time.time - audioManager.GetTime() > audioManager.GetGap())
             {
                 audioSource.PlayOneShot(audioClips[Random.Range(0, audioClips.Length)]);
-                audioManager.setTime();
+                audioManager.SetTime();
             }
         }
 	}
