@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: 1af777f50dbeb31499b14c29eb057b52
+timeCreated: 1519599962
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Breakable_Wall_First_Floor
+    100002: Breakable_Wall_First_Floor1
+    100004: Breakable_Wall_Second_Floor_1
+    100006: Breakable_Wall_Second_Floor_2
+    100008: Breakable_Window_First_Floor
+    100010: Breakable_Window_Second_Floor
+    100012: Breakable_Window_Second_Floor_3
+    100014: deck
+    100016: First_Floor
+    100018: First_Floor_all
+    100020: First_Floor_Walls_wall
+    100022: Ground
+    100024: //RootNode
+    100026: pCube1
+    100028: pCube1 1
+    100030: pCylinder1
+    100032: pCylinder1 1
+    100034: pCylinder2
+    100036: pCylinder2 1
+    100038: pCylinder3
+    100040: pCylinder3 1
+    100042: pipe
+    100044: pipe 1
+    100046: pipe1
+    100048: pipe1 1
+    100050: pipe2
+    100052: pipe2 1
+    100054: pipe3
+    100056: pipe3 1
+    100058: pipe4
+    100060: pipe4 1
+    100062: plank
+    100064: plank1
+    100066: plank10
+    100068: plank11
+    100070: plank2
+    100072: plank3
+    100074: plank4
+    100076: plank5
+    100078: plank6
+    100080: plank7
+    100082: plank8
+    100084: plank9
+    100086: Porch_roof
+    100088: pSphere1
+    100090: pSphere1 1
+    100092: pSphere2
+    100094: pSphere2 1
+    100096: railing
+    100098: railing1
+    100100: Roof2
+    100102: Second_Floor
+    100104: Second_Floor 1
+    100106: Second_Floor_all
+    100108: Second_Floor_Walls1
+    100110: sprinkler_button_1
+    100112: sprinkler_button_2
+    100114: window_frame
+    100116: window_frame1
+    100118: window_pane
+    100120: window_pane1
+    100122: window_pane2
+    400000: Breakable_Wall_First_Floor
+    400002: Breakable_Wall_First_Floor1
+    400004: Breakable_Wall_Second_Floor_1
+    400006: Breakable_Wall_Second_Floor_2
+    400008: Breakable_Window_First_Floor
+    400010: Breakable_Window_Second_Floor
+    400012: Breakable_Window_Second_Floor_3
+    400014: deck
+    400016: First_Floor
+    400018: First_Floor_all
+    400020: First_Floor_Walls_wall
+    400022: Ground
+    400024: //RootNode
+    400026: pCube1
+    400028: pCube1 1
+    400030: pCylinder1
+    400032: pCylinder1 1
+    400034: pCylinder2
+    400036: pCylinder2 1
+    400038: pCylinder3
+    400040: pCylinder3 1
+    400042: pipe
+    400044: pipe 1
+    400046: pipe1
+    400048: pipe1 1
+    400050: pipe2
+    400052: pipe2 1
+    400054: pipe3
+    400056: pipe3 1
+    400058: pipe4
+    400060: pipe4 1
+    400062: plank
+    400064: plank1
+    400066: plank10
+    400068: plank11
+    400070: plank2
+    400072: plank3
+    400074: plank4
+    400076: plank5
+    400078: plank6
+    400080: plank7
+    400082: plank8
+    400084: plank9
+    400086: Porch_roof
+    400088: pSphere1
+    400090: pSphere1 1
+    400092: pSphere2
+    400094: pSphere2 1
+    400096: railing
+    400098: railing1
+    400100: Roof2
+    400102: Second_Floor
+    400104: Second_Floor 1
+    400106: Second_Floor_all
+    400108: Second_Floor_Walls1
+    400110: sprinkler_button_1
+    400112: sprinkler_button_2
+    400114: window_frame
+    400116: window_frame1
+    400118: window_pane
+    400120: window_pane1
+    400122: window_pane2
+    2100000: lambert1
+    2300000: Breakable_Wall_First_Floor
+    2300002: Breakable_Wall_First_Floor1
+    2300004: Breakable_Wall_Second_Floor_1
+    2300006: Breakable_Wall_Second_Floor_2
+    2300008: Breakable_Window_First_Floor
+    2300010: Breakable_Window_Second_Floor
+    2300012: Breakable_Window_Second_Floor_3
+    2300014: First_Floor
+    2300016: First_Floor_Walls_wall
+    2300018: Ground
+    2300020: pCube1
+    2300022: pCube1 1
+    2300024: pCylinder1
+    2300026: pCylinder1 1
+    2300028: pCylinder2
+    2300030: pCylinder2 1
+    2300032: pCylinder3
+    2300034: pCylinder3 1
+    2300036: pipe
+    2300038: pipe 1
+    2300040: pipe1
+    2300042: pipe1 1
+    2300044: pipe2
+    2300046: pipe2 1
+    2300048: pipe3
+    2300050: pipe3 1
+    2300052: pipe4
+    2300054: pipe4 1
+    2300056: plank
+    2300058: plank1
+    2300060: plank10
+    2300062: plank11
+    2300064: plank2
+    2300066: plank3
+    2300068: plank4
+    2300070: plank5
+    2300072: plank6
+    2300074: plank7
+    2300076: plank8
+    2300078: plank9
+    2300080: Porch_roof
+    2300082: pSphere1
+    2300084: pSphere1 1
+    2300086: pSphere2
+    2300088: pSphere2 1
+    2300090: railing
+    2300092: railing1
+    2300094: Roof2
+    2300096: Second_Floor 1
+    2300098: Second_Floor_Walls1
+    2300100: window_frame
+    2300102: window_frame1
+    2300104: window_pane
+    2300106: window_pane1
+    2300108: window_pane2
+    3300000: Breakable_Wall_First_Floor
+    3300002: Breakable_Wall_First_Floor1
+    3300004: Breakable_Wall_Second_Floor_1
+    3300006: Breakable_Wall_Second_Floor_2
+    3300008: Breakable_Window_First_Floor
+    3300010: Breakable_Window_Second_Floor
+    3300012: Breakable_Window_Second_Floor_3
+    3300014: First_Floor
+    3300016: First_Floor_Walls_wall
+    3300018: Ground
+    3300020: pCube1
+    3300022: pCube1 1
+    3300024: pCylinder1
+    3300026: pCylinder1 1
+    3300028: pCylinder2
+    3300030: pCylinder2 1
+    3300032: pCylinder3
+    3300034: pCylinder3 1
+    3300036: pipe
+    3300038: pipe 1
+    3300040: pipe1
+    3300042: pipe1 1
+    3300044: pipe2
+    3300046: pipe2 1
+    3300048: pipe3
+    3300050: pipe3 1
+    3300052: pipe4
+    3300054: pipe4 1
+    3300056: plank
+    3300058: plank1
+    3300060: plank10
+    3300062: plank11
+    3300064: plank2
+    3300066: plank3
+    3300068: plank4
+    3300070: plank5
+    3300072: plank6
+    3300074: plank7
+    3300076: plank8
+    3300078: plank9
+    3300080: Porch_roof
+    3300082: pSphere1
+    3300084: pSphere1 1
+    3300086: pSphere2
+    3300088: pSphere2 1
+    3300090: railing
+    3300092: railing1
+    3300094: Roof2
+    3300096: Second_Floor 1
+    3300098: Second_Floor_Walls1
+    3300100: window_frame
+    3300102: window_frame1
+    3300104: window_pane
+    3300106: window_pane1
+    3300108: window_pane2
+    4300000: First_Floor_Walls_wall
+    4300002: First_Floor
+    4300004: Breakable_Wall_First_Floor
+    4300006: Breakable_Window_First_Floor
+    4300008: Breakable_Wall_First_Floor1
+    4300010: window_frame
+    4300012: window_frame1
+    4300014: window_pane2
+    4300016: window_pane1
+    4300018: window_pane
+    4300020: railing
+    4300022: railing1
+    4300024: Second_Floor
+    4300026: Second_Floor_Walls1
+    4300028: Breakable_Wall_Second_Floor_1
+    4300030: Breakable_Wall_Second_Floor_2
+    4300032: Breakable_Window_Second_Floor_3
+    4300034: Breakable_Window_Second_Floor
+    4300036: Porch_roof
+    4300038: pipe
+    4300040: pipe1
+    4300042: pSphere1
+    4300044: pipe2
+    4300046: pSphere2
+    4300048: pipe3
+    4300050: pipe4
+    4300052: pCylinder2
+    4300054: pCylinder3
+    4300056: pCube1
+    4300058: pCylinder1
+    4300060: Roof2
+    4300062: Ground
+    4300064: plank
+    4300066: plank1
+    4300068: plank2
+    4300070: plank3
+    4300072: plank4
+    4300074: plank5
+    4300076: plank6
+    4300078: plank7
+    4300080: plank8
+    4300082: plank9
+    4300084: plank10
+    4300086: plank11
+    4300088: pipe
+    4300090: pipe1
+    4300092: pSphere1
+    4300094: pipe2
+    4300096: pSphere2
+    4300098: pipe3
+    4300100: pipe4
+    4300102: pCylinder2
+    4300104: pCylinder3
+    4300106: pCube1
+    4300108: pCylinder1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
