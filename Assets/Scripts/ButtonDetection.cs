@@ -19,19 +19,19 @@ public class ButtonDetection : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (!pressed && collision.gameObject.tag == "buttonBase")
+        if (!pressed && collision.gameObject.tag == "ButtonBase")
             startTime = Time.time;
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        if (!pressed && collision.gameObject.tag == "buttonBase")
+        if (!pressed && collision.gameObject.tag == "ButtonBase")
             startTime = 0;
     }
 
     private void OnCollisionStay(Collision collision)
     {
-        if (!pressed && collision.gameObject.tag == "buttonBase")
+        if (!pressed && collision.gameObject.tag == "ButtonBase")
         {
             if (Time.time - startTime == 3f)
             {

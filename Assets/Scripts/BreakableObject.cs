@@ -54,11 +54,11 @@ public class BreakableObject : MonoBehaviour {
     }
 
     void OnCollisionStay(Collision col) {
-
+		
         ContactPoint contact = col.contacts[0];
         
         if (col.gameObject.tag == "hammer")
-        {
+		{	
             if ((gameObject.GetComponent<Rigidbody>().isKinematic == true))
             {
 				
@@ -68,13 +68,14 @@ public class BreakableObject : MonoBehaviour {
                 Instantiate(prefabHitEffect, contact.point, Quaternion.Euler(gameObject.transform.rotation.eulerAngles.x, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z + 90));
 				//Debug.Log (col.relativeVelocity.magnitude);
                 Destroy(aoe);
-				audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
+
+				//audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
             }
         }
     }
 
     void OnCollisionEnter(Collision col) {
-        audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
+        
     }
 
 }
