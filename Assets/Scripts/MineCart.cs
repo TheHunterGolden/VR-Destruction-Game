@@ -20,7 +20,7 @@ public class MineCart : MonoBehaviour {
 
 		if (collider.gameObject.tag == "breakable") {
 			rigidbody.mass += collider.gameObject.GetComponent<Rigidbody> ().mass;
-			GameObject text = Instantiate (textHolder, collider.gameObject.transform.localPosition, Quaternion.identity);
+			Instantiate (textHolder, collider.gameObject.transform.position, Quaternion.identity);
 			Destroy (collider.gameObject);
 		}
 	}
