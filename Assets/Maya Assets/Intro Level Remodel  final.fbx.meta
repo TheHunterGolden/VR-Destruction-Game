@@ -345,6 +345,71 @@ ModelImporter:
     4300124: pCube11
     4300126: pCube12
     4300128: pCube13
+    6400000: Breakable_Wall_First_Floor
+    6400002: Breakable_Wall_First_Floor1
+    6400004: Breakable_Wall_Second_Floor_1
+    6400006: Breakable_Wall_Second_Floor_2
+    6400008: Breakable_Window_First_Floor
+    6400010: Breakable_Window_Second_Floor
+    6400012: Breakable_Window_Second_Floor_3
+    6400014: First_Floor
+    6400016: First_Floor_Walls_wall
+    6400018: Ground
+    6400020: pCube1
+    6400022: pCube1 1
+    6400024: pCube10
+    6400026: pCube11
+    6400028: pCube12
+    6400030: pCube13
+    6400032: pCube2
+    6400034: pCube3
+    6400036: pCube5
+    6400038: pCube6
+    6400040: pCube7
+    6400042: pCube9
+    6400044: pCylinder1
+    6400046: pCylinder1 1
+    6400048: pCylinder2
+    6400050: pCylinder2 1
+    6400052: pCylinder3
+    6400054: pCylinder3 1
+    6400056: pipe
+    6400058: pipe 1
+    6400060: pipe1
+    6400062: pipe1 1
+    6400064: pipe2
+    6400066: pipe2 1
+    6400068: pipe3
+    6400070: pipe3 1
+    6400072: pipe4
+    6400074: pipe4 1
+    6400076: plank
+    6400078: plank1
+    6400080: plank10
+    6400082: plank11
+    6400084: plank2
+    6400086: plank3
+    6400088: plank4
+    6400090: plank5
+    6400092: plank6
+    6400094: plank7
+    6400096: plank8
+    6400098: plank9
+    6400100: Porch_roof
+    6400102: pSphere1
+    6400104: pSphere1 1
+    6400106: pSphere2
+    6400108: pSphere2 1
+    6400110: railing
+    6400112: railing1
+    6400114: Roof2
+    6400116: Second_Floor 1
+    6400118: Second_Floor_Walls1
+    6400120: window_frame
+    6400122: window_frame1
+    6400124: window_pane
+    6400126: window_pane1
+    6400128: window_pane2
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -378,7 +443,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
