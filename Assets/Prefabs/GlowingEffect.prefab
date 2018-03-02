@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8099d326c7ea2034c8ddbe4311151241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degPerSec: 60
+  degPerSec: 10
   rotAxis: {x: 0, y: 1, z: 0}
 --- !u!114 &114856317360822900
 MonoBehaviour:
@@ -209,5 +209,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8099d326c7ea2034c8ddbe4311151241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degPerSec: 180
+  degPerSec: 30
   rotAxis: {x: 0, y: 1, z: 0}

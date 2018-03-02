@@ -9,12 +9,14 @@ public class StelagtiteController : MonoBehaviour {
 	void Start () {
 		GameObject glowing = Instantiate (glowingEffect, transform);
 		Vector3 scale = transform.localScale;
-		//Vector3 position = transform.localPosition;
 		Quaternion rotation = transform.localRotation;
 		glowing.transform.parent = null;
 		glowing.transform.localScale = scale;
 		glowing.transform.localRotation = rotation;
-		//glowing.transform.localPosition = position.
+		Vector3 position = transform.localPosition;
+		position.y -= 0.9f;
+		glowing.transform.localPosition -= position;
+
 
 	}
 	
