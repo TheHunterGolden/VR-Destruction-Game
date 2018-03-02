@@ -13,6 +13,8 @@ TagManager:
   - TeleportIgnore
   - Shell
   - Block
+  - ButtonBase
+  - MineButton
   layers:
   - Default
   - TransparentFX

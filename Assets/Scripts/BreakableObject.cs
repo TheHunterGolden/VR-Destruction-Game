@@ -15,12 +15,15 @@ public class BreakableObject : MonoBehaviour {
     public bool useTimer;
 	private VRTK_InteractableObject objScript;
 	private VRTK_FixedJointGrabAttach fixedGrabAttach;
+	private string[] soundName = { "Break1", "Break2", "Break3" };
+	public GameObject audioManager;
 
     [SerializeField]
     [Tooltip("The prefab for particle effect when hitting the wall")]
     GameObject prefabHitEffect;
 
     void Start() {
+		
         timer = 3;
         startTimer = false;
 		if (gameObject.GetComponent<VRTK_InteractableObject> () && gameObject.GetComponent<VRTK_FixedJointGrabAttach> ()) { 
@@ -31,7 +34,9 @@ public class BreakableObject : MonoBehaviour {
     }
 
     void Update()
-    {
+	{
+		//audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
+
 
         if ((startTimer == true) && (useTimer)) { 
             timer -= Time.deltaTime;
@@ -49,11 +54,11 @@ public class BreakableObject : MonoBehaviour {
     }
 
     void OnCollisionStay(Collision col) {
-
+		
         ContactPoint contact = col.contacts[0];
         
         if (col.gameObject.tag == "hammer")
-        {
+		{	
             if ((gameObject.GetComponent<Rigidbody>().isKinematic == true))
             {
 				
@@ -64,8 +69,13 @@ public class BreakableObject : MonoBehaviour {
 				//Debug.Log (col.relativeVelocity.magnitude);
                 Destroy(aoe);
 
+				//audioManager.GetComponent<AudioManager>().Play(soundName[Random.Range(0, 2)]);
             }
         }
+    }
+
+    void OnCollisionEnter(Collision col) {
+        
     }
 
 }

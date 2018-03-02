@@ -17,7 +17,7 @@ public class Levelcontroller : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space)) { 
             Debug.Log("space key was pressed");
-            SceneManager.LoadScene(levelName);
+            //SceneManager.LoadScene(levelName);
         }
     }
 
