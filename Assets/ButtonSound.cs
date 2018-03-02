@@ -7,6 +7,7 @@ public class ButtonSound : MonoBehaviour {
 	public Score score;
 	private bool pressed;
 	public AudioClip[] clips;
+	public GameObject PressedText;
 
 	void Start(){
 		pressed = false;
@@ -20,8 +21,9 @@ public class ButtonSound : MonoBehaviour {
 	void OnCollisionEnter(Collision col){
 		PlayButtonSound ();
 
-		if (!pressed && gameObject.tag != "MineButton") {
+		if (!pressed) {
 			score.addScore ();
+			Instantiate (PressedText, col.gameObject.transform.position, Quaternion.identity);
 			pressed = true;
 		}
 	}
