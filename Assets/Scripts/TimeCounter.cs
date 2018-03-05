@@ -10,6 +10,6 @@ public class TimeCounter : MonoBehaviour
     {
         int minutes = (int)Time.time / 60;
         int seconds = (int)Time.time % 60;
-        gameObject.GetComponent<Text>().text = "Time: " + minutes + ":" + seconds;
+        gameObject.GetComponent<Text>().text = "Time: " + minutes + ":" + seconds.ToString("00");
     }
 }

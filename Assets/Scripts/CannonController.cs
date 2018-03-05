@@ -33,7 +33,14 @@ public class CannonController : MonoBehaviour {
         transform.localEulerAngles = tempRot;
 
         if (transform.localEulerAngles.y >= range && transform.localEulerAngles.y <= 360 - range)
+        {
+            float diff1 = transform.localEulerAngles.y - range;
+            float diff2 = 360 - range - transform.localEulerAngles.y;
+            tempRot.y = diff1 < diff2 ? range : 360-range;
+            transform.localEulerAngles = tempRot;
             rotationSpeed = -rotationSpeed;
+        }
+            
     }
 
     public void shootShell()
@@ -48,6 +55,6 @@ public class CannonController : MonoBehaviour {
         unit /= 40f;
 
         Vector3 direction = new Vector3(unit , 1f, 1.414f);
-        shell.GetComponent<Rigidbody>().AddForce(direction.normalized * shootingForce);
+        shell.GetComponent<Rigidbody>().AddForce(direction.normalized * shootingForce, ForceMode.Impulse);
     }
 }
