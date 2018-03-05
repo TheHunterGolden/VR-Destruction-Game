@@ -16,6 +16,7 @@ TagManager:
   - ButtonBase
   - MineButton
   - SprinklerButton
+  - big
   layers:
   - Default
   - TransparentFX
