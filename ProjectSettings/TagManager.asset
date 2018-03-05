@@ -15,6 +15,7 @@ TagManager:
   - Block
   - ButtonBase
   - MineButton
+  - SprinklerButton
   layers:
   - Default
   - TransparentFX

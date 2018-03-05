@@ -25,5 +25,12 @@ public class ShootingButtonController: MonoBehaviour
             cannon.shootShell();
             currentTime = Time.time;
         }
+
+        if(transform.localPosition.y > height)
+        {
+            Vector3 position = transform.localPosition;
+            position.y = height;
+            transform.localPosition = position;
+        }
     }
 }
