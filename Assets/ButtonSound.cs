@@ -21,7 +21,7 @@ public class ButtonSound : MonoBehaviour {
 	void OnCollisionEnter(Collision col){
 		PlayButtonSound ();
 
-		if ((!pressed && col.gameObject.tag == "hammer") && (gameObject.tag != "MineButton") || (gameObject.tag == "MineButton" && !gameObject.GetComponent<Rigidbody>().isKinematic)) {
+		if ((!pressed && col.gameObject.tag == "hammer" && gameObject.tag != "MineButton") || (!pressed && gameObject.tag == "MineButton" && !gameObject.GetComponent<Rigidbody>().isKinematic && (col.gameObject.tag == "hammer" || col.gameObject.name == "Mine_Cart"))) {
 			score.addScore ();
 			pressed = true;
             
