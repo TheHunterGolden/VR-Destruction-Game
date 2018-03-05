@@ -129,7 +129,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mass +100
+  m_Text: Weight Increased!
 --- !u!114 &114965637587985002
 MonoBehaviour:
   m_ObjectHideFlags: 1
