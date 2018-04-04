@@ -23,7 +23,7 @@ public class HammerTeleporter : MonoBehaviour {
         if ((col.gameObject.tag == "hammer") && (timer <= 0.2f)) {
             //Debug.Log("hit hammer");
 
-			//playerPos.position = teleportDestination.position;
+			playerPos.localPosition = teleportDestination.localPosition;
             teleportDestination.GetComponent<HammerTeleporter>().timer = 3.0f;
 
 		
