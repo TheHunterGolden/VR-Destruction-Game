@@ -15,7 +15,7 @@ public class HammerTeleporter : MonoBehaviour {
     void Update() {
         if (timer >= 0)
         {
-            timer -= Time.deltaTime;
+           // timer -= Time.deltaTime;
         }
     }
 
@@ -23,8 +23,8 @@ public class HammerTeleporter : MonoBehaviour {
         if ((col.gameObject.tag == "hammer") && (timer <= 0.2f)) {
             //Debug.Log("hit hammer");
 
-			playerPos.localPosition = teleportDestination.localPosition;
-            teleportDestination.GetComponent<HammerTeleporter>().timer = 3.0f;
+			//playerPos.localPosition = teleportDestination.localPosition;
+            //teleportDestination.GetComponent<HammerTeleporter>().timer = 3.0f;
 
 		
 
