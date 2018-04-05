@@ -7,7 +7,7 @@ public class CheckMass : MonoBehaviour {
 
     void OnCollisionEnter(Collision col) {
         if (col.gameObject.GetComponent<Rigidbody>()) {
-            if (col.gameObject.GetComponent<Rigidbody>().mass >= 400) {
+            if (col.gameObject.GetComponent<Rigidbody>().mass >= 150) {
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
             }
         }

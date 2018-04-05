@@ -26,7 +26,7 @@ public class ButtonSound : MonoBehaviour {
 			pressed = true;
             
 			GameObject buttonText = Instantiate (PressedText, transform);
-		} else if (gameObject.tag == "big") {
+		} else if (gameObject.tag == "big" && (pressed == false)) {
 			score.addScore ();
 			pressed = true;
 

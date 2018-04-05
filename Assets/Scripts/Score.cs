@@ -15,7 +15,7 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		gameObject.GetComponent<Text>().text = "Buttons Pressed\n" + count + " out of 12";
+		gameObject.GetComponent<Text>().text = "Buttons Pressed\n" + count + " out of 15";
     }
 
     public void addScore()
