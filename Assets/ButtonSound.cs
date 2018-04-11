@@ -7,7 +7,7 @@ public class ButtonSound : MonoBehaviour {
 	public Score score;
 	private bool pressed;
 	public AudioClip[] clips;
-	public GameObject PressedText;
+	//public GameObject PressedText;
 
 	void Start(){
 		pressed = false;
@@ -24,13 +24,13 @@ public class ButtonSound : MonoBehaviour {
 		if ((!pressed && col.gameObject.tag == "hammer" && gameObject.tag != "MineButton") || (!pressed && gameObject.tag == "MineButton" && !gameObject.GetComponent<Rigidbody> ().isKinematic && (col.gameObject.tag == "hammer" || col.gameObject.name == "Mine_Cart"))) {
 			score.addScore ();
 			pressed = true;
-            
-			GameObject buttonText = Instantiate (PressedText, transform);
+			gameObject.GetComponent<Renderer>().material.color = Color.green; 
+			//GameObject buttonText = Instantiate (PressedText, transform);
 		} else if (gameObject.tag == "big" && (pressed == false)) {
 			score.addScore ();
 			pressed = true;
-
-			GameObject buttonText = Instantiate (PressedText, transform);
+			gameObject.GetComponent<Renderer>().material.color = Color.green; 
+			//GameObject buttonText = Instantiate (PressedText, transform);
 		}
 
 	}
